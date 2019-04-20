@@ -1,22 +1,36 @@
-:root{
+:root {
   --mainBrown: #2d1ef1;
   --mainYellow: #ff9e09;
   --mainGrey: #ece8dc;
   --mainDark: #222;
 }
 
-body{
-  background: var(--mainWhite);
+body {
+  background: var(--mainRed);
   color: var(--mainDark);
   font-family: Verdana, Tahoma, Geneva, Verdana, sans-serif !important;
-
 }
 
-h1,h2, h3, h4, h5, h6 {
-  font-family: 'Courier New', Courier, monospace !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
   letter-spacing: 0.25rem !important;
 }
 
 .text-yellow {
   color: var(--mainYellow);
+}
+
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+  background-position: center;
+  background-size: cover;
 }
