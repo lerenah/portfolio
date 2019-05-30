@@ -3,7 +3,6 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { FaGulp } from "react-icons/fa"
 import Info from "../components/Home/info"
 import BackgroundImage from "../components/Globals/BackgroundImage"
 
@@ -14,7 +13,6 @@ const IndexPage = ({ data }) => (
       img={data.img.childImageSharp.fluid}
       styleClass="default-background"
     />
-    <FaGulp />
     <Info />
   </Layout>
 )

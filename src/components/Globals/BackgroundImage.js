@@ -13,6 +13,6 @@ export default function Background({ img, styleClass, title, children }) {
 }
 
 Background.defaultProps = {
-  title: "default title",
+  title: "",
   styleClass: "default-background",
 }
